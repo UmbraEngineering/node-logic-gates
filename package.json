@@ -1,0 +1,28 @@
+{
+  "name": "logic-gates",
+  "version": "0.0.1",
+  "description": "Logical gates defined as methods",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/UmbraEngineering/node-logic-gates"
+  },
+  "keywords": [
+    "and",
+    "nand",
+    "or",
+    "nor",
+    "xor",
+    "xnor",
+    "not",
+    "logic",
+    "gates",
+    "boolean"
+  ],
+  "author": "James Brumond <james@jbrumond.me> (http://www.jbrumond.me)",
+  "license": "MIT",
+  "readmeFilename": "readme.md"
+}
