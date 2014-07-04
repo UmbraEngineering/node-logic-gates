@@ -11,6 +11,27 @@ var gates = requrie('logic-gates');
 [false, false, false].reduce(gates.and);  // false
 ```
 
+You can also use them with currying/partial application or other functional styles:
+
+```javascript
+var gates = require('logic-gates');
+
+var andTrue = curry(gates.and)(a);
+
+if (andTrue(b)) {
+    console.log('a and b are true');
+}
+
+// Currying method
+function curry(func) {
+    return function(a) {
+        return function(b) {
+            return func(a, b);
+        };
+    };
+}
+```
+
 ## Install
 
 ```bash
